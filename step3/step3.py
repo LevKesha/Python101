@@ -19,5 +19,5 @@ while add_condition == "Y":
     add_condition = input("Would you like to add a new condition? Y/N ")
 
 print(new_conditions)
-game = FizzBuzzGame(new_conditions)
+game.conditions = new_conditions
 
